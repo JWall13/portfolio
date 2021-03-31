@@ -1,18 +1,91 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 /* Here is the body styling */
+
+body {
+    background-color: lightgrey;
+}
 
 /* Here is the header styling */ 
 
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    margin-right: 15px;
+}
+
+header {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    background-color: lightslategrey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    justify-content: space-between;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+    float: right;
+    /* padding: 10px 20px 0px 20px; */
+}
 /* Here is the hero styling */
 
-.hero {
+.mypic {
     background-image: url("../images/headshot.jpg");
-    background-position: right;
-    height: 600px;
+    margin-left: 950px;
+    height: 400px;
     width: 400px;
+}
+
+.my-work-class h2 {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    font-family: 'Trebuchet MS';
+    color: #8000ff
 }
 
 .my-work-class img {
     width: 150px;
     height: 300px;
+}
+
+.about-me-class h2 {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    font-family: 'Trebuchet MS';
+    color: #8000ff
+}
+
+.contact-class h2 {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    font-family: 'Trebuchet MS';
+    color: #8000ff
+}
+
+.sections {
+    border-right: black solid 3px;
+    padding-right: 8px;
+}
+
+.content {
+    float: left;
 }
