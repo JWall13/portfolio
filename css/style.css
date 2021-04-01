@@ -44,28 +44,29 @@ header nav {
 
 .parent {
     display: flex;
-    flex-direction: column;
+    
 }
 
 .children {
     display: flex;
-    
+    flex-direction: column;
+    border-right: black;
 }
 
 .mypic {
-    background-image: url("../images/headshot.jpg");
-    margin-left: 950px;
+    margin-right: 54px;
     height: 400px;
     width: 400px;
 }
 
 .my-work-class h2 {
-    font-size: 25px;
+    font-size: 50px;
     display: flex;
     flex-wrap: wrap;
     float: left;
     font-family: 'Trebuchet MS';
-    color: #8000ff
+    color: #8000ff;
+    padding: 15px;
 }
 
 .my-work-class img {
@@ -74,21 +75,23 @@ header nav {
 }
 
 .about-me-class h2 {
-    font-size: 25px;
+    font-size: 50px;
     display: flex;
     flex-wrap: wrap;
     float: left;
     font-family: 'Trebuchet MS';
-    color: #8000ff
+    color: #8000ff;
+    padding: 15px;
 }
 
 .contact-class h2 {
-    font-size: 25px;
+    font-size: 50px;
     display: flex;
     flex-wrap: wrap;
     float: left;
     font-family: 'Trebuchet MS';
-    color: #8000ff
+    color: #8000ff;
+    padding: 15px;
 }
 
 .sections {
@@ -98,4 +101,9 @@ header nav {
 
 .content {
     float: left;
+}
+
+.first-app {
+    height: 50px;
+    width: 200px;
 }
