@@ -84,6 +84,10 @@ header nav {
     padding: 15px;
 }
 
+.about-me-class h2 div p {
+    display: inline-block;  
+}
+
 .contact-class h2 {
     font-size: 50px;
     display: flex;
@@ -106,4 +110,8 @@ header nav {
 .first-app {
     height: 50px;
     width: 200px;
+}
+
+.about-me-class h2 p {
+
 }
