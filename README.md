@@ -10,4 +10,4 @@ It should be self-explanatory, but you will first encounter my name, picture, an
 
 ##Link to Deployed Application:
 
-##Screenshot: 
+##Screenshot: ![JRWscreenshot](./images/JRWscreenshot)

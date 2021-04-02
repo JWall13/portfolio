@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
 }
 /* Here is the body styling */
@@ -40,7 +40,7 @@ header nav {
     float: right;
     /* padding: 10px 20px 0px 20px; */
 }
-/* Here is the hero styling */
+/* Here is the content styling */
 
 .parent {
     display: flex;
@@ -63,13 +63,23 @@ header nav {
     font-size: 50px;
     display: flex;
     flex-wrap: wrap;
-    float: left;
     font-family: 'Trebuchet MS';
     color: #8000ff;
     padding: 15px;
 }
 
+.my-work-class h3 {
+    margin-left: 30px;
+    font-size: 18pt;
+}
+
 .my-work-class img {
+    width: 500px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.my-work-class .horiseon {
     width: 150px;
     height: 300px;
 }
@@ -78,7 +88,6 @@ header nav {
     font-size: 50px;
     display: flex;
     flex-wrap: wrap;
-    float: left;
     font-family: 'Trebuchet MS';
     color: #8000ff;
     padding: 15px;
@@ -92,14 +101,18 @@ header nav {
     font-size: 50px;
     display: flex;
     flex-wrap: wrap;
-    float: left;
     font-family: 'Trebuchet MS';
     color: #8000ff;
     padding: 15px;
 }
 
+.contact-class p {
+    margin-left: 100px;
+    font-size: 25pt;
+}
+
 .sections {
-    border-right: black solid 3px;
+    /* border-right: black solid 3px; */
     padding-right: 8px;
 }
 
@@ -112,6 +125,10 @@ header nav {
     width: 200px;
 }
 
-.about-me-class h2 p {
+.sections p {
+    font-size: 20pt
+}
 
+.about-me-id .about-me-class p {
+    font-size: 30pt;
 }
