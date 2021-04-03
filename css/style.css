@@ -42,6 +42,10 @@ header nav {
 }
 /* Here is the content styling */
 
+.content {
+    float: left;
+}
+
 .parent {
     display: flex;
     
@@ -53,11 +57,26 @@ header nav {
     border-right: black;
 }
 
-.mypic {
-    margin-right: 54px;
-    height: 400px;
-    width: 400px;
+/* About Me section */
+
+.about-me-id .about-me-class p {
+    font-size: 30pt;
 }
+
+.about-me-class h2 {
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS';
+    color: #8000ff;
+    padding: 15px;
+}
+
+.about-me-class h2 div p {
+    display: inline-block;  
+}
+
+/* My Work Section */
 
 .my-work-class h2 {
     font-size: 50px;
@@ -79,23 +98,17 @@ header nav {
     margin-left: 10px;
 }
 
+.first-app {
+    height: 50px;
+    width: 200px;
+}
+
 .my-work-class .horiseon {
     width: 150px;
     height: 300px;
 }
 
-.about-me-class h2 {
-    font-size: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Trebuchet MS';
-    color: #8000ff;
-    padding: 15px;
-}
-
-.about-me-class h2 div p {
-    display: inline-block;  
-}
+/* Contact Section */
 
 .contact-class h2 {
     font-size: 50px;
@@ -116,19 +129,14 @@ header nav {
     padding-right: 8px;
 }
 
-.content {
-    float: left;
-}
-
-.first-app {
-    height: 50px;
-    width: 200px;
-}
-
 .sections p {
     font-size: 20pt
 }
 
-.about-me-id .about-me-class p {
-    font-size: 30pt;
+/* Headshot */
+
+.mypic {
+    margin-right: 54px;
+    height: 400px;
+    width: 400px;
 }
